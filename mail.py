@@ -16,9 +16,9 @@ if __name__ == "__main__":
             continue
 
     linked_list = arr_to_list(arr)  # Преобразование в список
-    print(linked_list)
+    print(linked_list, 'values from list')
     sorted_list = sort_list(arr)  # Сортировака списка
-    print(sorted_list)
+    print(sorted_list, 'sorted array')
     f_item = find_item(arr, position)  # Поиск значения в массиве
-    print(f_item)
+    print(f_item, 'position in Array')
 
